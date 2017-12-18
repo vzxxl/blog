@@ -135,12 +135,13 @@ footer {
 }
 
 .post {
-  width: 80%;
-  max-width: 80%;
+  width: 92%;
+  max-width: 92%;
   margin: 0 auto;
   margin-bottom: 1.5rem;
   display: flex;
   flex-direction: row;
+  flex: 0 1 100%;
   align-items: stretch;
   min-height: 11rem;
   overflow: hidden;

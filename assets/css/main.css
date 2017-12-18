@@ -1099,8 +1099,8 @@ footer .copyright {
 }
 
 .post {
-  width: 80%;
-  max-width: 80%;
+  width: 92%;
+  max-width: 92%;
   margin: 0 auto;
   margin-bottom: 1.5rem;
   display: -webkit-box;
@@ -1112,6 +1112,10 @@ footer .copyright {
   -webkit-flex-direction: row;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 1 100%;
+      -ms-flex: 0 1 100%;
+          flex: 0 1 100%;
   -webkit-box-align: stretch;
   -webkit-align-items: stretch;
       -ms-flex-align: stretch;
