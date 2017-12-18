@@ -6,12 +6,28 @@ description: How to build a blog in no time and zero expenses. # Add post descri
 img: jekyll.png # Add image post (optional)
 tags: [blog, jekyll, github]
 ---
-Fam locavore snackwave bushwick +1 sartorial. Selfies portland knausgaard synth. Pop-up art party marfa deep v pitchfork subway tile 3 wolf moon. Ennui pinterest tumblr yr, adaptogen succulents copper mug twee. Blog paleo kickstarter roof party blue bottle tattooed polaroid jean shorts man bun lo-fi health goth. Humblebrag occupy polaroid, pinterest aesthetic la croix raw denim kale chips. 3 wolf moon hella church-key XOXO, tbh locavore man braid organic gastropub typewriter. Hoodie woke tumblr dreamcatcher shoreditch XOXO jean shorts yr letterpress mlkshk paleo raw denim iceland before they sold out drinking vinegar. Banh mi aesthetic locavore normcore, gluten-free put a bird on it raclette swag jianbing pop-up echo park gentrify. Stumptown brooklyn godard tumeric ethical. Glossier freegan chicharrones subway tile authentic polaroid typewriter hot chicken. Thundercats small batch heirloom meggings.
+Have you ever thought about the possibility of making a blog quickly and with no pyments at all, even for hosting. Well, nowadays with all these new services we can do so much more. And in this post Im going to tell you about this possibility with GitHub and Jekyll. 
+If you work in IT you probably know about Git and GitHub where you can store your code and track all the changes you have implemented to it. But not everyone knows that GitHub also allows you to host your site and veiw it like a normal one. It's called <a href="https://pages.github.com/">GitHub Pages.</a>
 
-## Plaid ramps kitsch woke pork belly
-90's yr crucifix, selvage 8-bit listicle forage cliche shoreditch hammock microdosing synth. Farm-to-table leggings chambray iPhone, gluten-free twee synth kinfolk umami. Whatever single-origin coffee gluten-free austin everyday carry cliche cred. Plaid ramps kitsch woke pork belly organic. Trust fund whatever coloring book kombucha brooklyn. Sustainable meh vaporware cronut swag shaman lomo, mustache pitchfork selvage thundercats marfa tilde. Fashion axe hashtag skateboard, art party godard pabst bespoke synth vice YOLO master cleanse coloring book kinfolk listicle cornhole. Try-hard mixtape umami fanny pack man bun gastropub franzen tbh. Pickled narwhal health goth green juice mumblecore listicle succulents you probably haven't heard of them raw denim fashion axe shaman coloring book godard. Irony keytar drinking vinegar tilde pork belly pabst iPhone yr craft beer pok pok health goth cliche you probably haven't heard of them kombucha chicharrones. Direct trade hella roof party chia. Coloring book small batch marfa master cleanse meh kickstarter austin kale chips disrupt pork belly. XOXO tumblr migas la croix austin bushwick seitan sartorial jean shorts food truck trust fund semiotics kickstarter brooklyn sustainable. Umami knausgaard mixtape marfa. Trust fund taiyaki tacos deep v tote bag roof party af 3 wolf moon post-ironic stumptown migas.
+![GitHub Pages]({{site.baseurl}}/assets/img/github-pages.jpg)
 
-![I and My friends]({{site.baseurl}}/assets/img/we-in-rest.jpg)
+Seems like now we have a solution. But there is one problem: you can't use a database on GitHub Pages. But here's why I love IT community and "problem-solving" type of thinking - sooner or later there will be a way around. This time GitHub programmers solved this problem themselvs creating Jekyll - a Ruby gem that can make a blog out of static html elements. And don't be scared by Ruby language, you don't need to know it to work with Jekyll. Its so simple that even a no-it guy could figure it out. You can find more information about <a href="https://jekyllrb.com/"></a> Jekyll on their official website.  
+
+![Jekyll Website]({{site.baseurl}}/assets/img/jekyll-official.jpg)
+
+## Lets make it by steps
+First of all you need to install Ruby environment. If you don't know if it is already in you system try to check the version by typing this in the command line of the terminal:
+<code>ruby -version</code> 
+If there's no info, then install it by this command (For Linux):
+<code>sudo apt-get install ruby-full</code> 
+There are other ways to install ruby for different systems. Check <a href="https://www.ruby-lang.org/en/documentation/installation/">this site </a>for more info
+
+Second step is to install jekyll. It is a so-called ruby gem (like a module in Node JS). You can do it by this command:
+<code>gem install jekyll bundler</code>
+<code>jekyll new name-of-you-project</code>
+<code>cd name-of-you-project</code>
+
+
 
 Selfies sriracha taiyaki woke squid synth intelligentsia PBR&B ethical kickstarter art party neutra biodiesel scenester. Health goth kogi VHS fashion axe glossier disrupt, vegan quinoa. Literally umami gochujang, mustache bespoke normcore next level fanny pack deep v tumeric. Shaman vegan affogato chambray. Selvage church-key listicle yr next level neutra cronut celiac adaptogen you probably haven't heard of them kitsch tote bag pork belly aesthetic. Succulents wolf stumptown art party poutine. Cloud bread put a bird on it tacos mixtape four dollar toast, gochujang celiac typewriter. Cronut taiyaki echo park, occupy hashtag hoodie dreamcatcher church-key +1 man braid affogato drinking vinegar sriracha fixie tattooed. Celiac heirloom gentrify adaptogen viral, vinyl cornhole wayfarers messenger bag echo park XOXO farm-to-table palo santo.
 
