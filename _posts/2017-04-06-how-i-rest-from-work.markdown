@@ -16,7 +16,7 @@ Seems like now we have a solution. But there is one problem: you can't use a dat
 ![Jekyll Website]({{site.baseurl}}/assets/img/jekyll-official.jpg)
 
 ## Lets make it by steps
-First of all you need to install Ruby environment. If you don't know if it is already in you system try to check the version by typing this in the command line of the terminal:
+First of all you need to install Ruby environment. If you don't know weather it is already in your system or not, try to check the version by typing this command in the terminal:
 <p class="code-field">ruby -version</p>
 If there's no info, then install it by this command (For Linux):
 <p class="code-field">sudo apt-get install ruby-full</p>
@@ -27,11 +27,11 @@ Second step is to install jekyll. It is a so-called ruby gem (like a module in N
 <p class="code-field">jekyll new name-of-you-project</p>
 <p class="code-field">cd name-of-you-project</p>
 
-Now you have Jekyll project ready. All main configurations are in _config.yml file. If you want to see how does the default theme look you can run a local server. Jekyll aready has all the settings for that. Simply type this command in the terminal
+Now you have Jekyll project ready. All main configurations are in <strong>_config.yml</strong> file. If you want to see how does the default theme look you can run a local server. Jekyll aready has all the settings for that. Simply type this command in the terminal
 
 <p class="code-field">jekyll serve</p>
 
-Now you can open http://127.0.0.1:4000/name-of-your-project/ to see how the default theme looks. If you're too lazy to deal with front-end building from scratch you have a wonderful option to download a ready-to-use theme on <a href="http://jekyllthemes.org/">JekyllThemes.org.</a> Here you can choose from dozens of designs and change the parts that you don't like. 
+Now you can open your site here <strong>http://127.0.0.1:4000/name-of-your-project/</strong>. You can also find the project name in <strong>_config.yml</strong>. If you're too lazy to deal with front-end building process from scratch, you have a wonderful option to download a ready-to-use theme on <a href="http://jekyllthemes.org/">JekyllThemes.org.</a> Here you can choose from dozens of designs and change the parts that you don't like later. 
 
 After figuring out the common structure of jekyll theme folder you are ready to put it to the GItHub. I suppose you already have an account there. So, first of all, you need to make a local adding to the GIT system:
 
