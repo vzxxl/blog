@@ -799,6 +799,11 @@ blockquote {
   color: #ada8a8;
 }
 
+.code-field {
+  background: #444;
+  color: #111;
+}
+
 pre {
   padding: 1rem 2rem;
   overflow-x: auto;
