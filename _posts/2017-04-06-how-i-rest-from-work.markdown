@@ -17,15 +17,15 @@ Seems like now we have a solution. But there is one problem: you can't use a dat
 
 ## Lets make it by steps
 First of all you need to install Ruby environment. If you don't know if it is already in you system try to check the version by typing this in the command line of the terminal:
-<p class="code-field">ruby -version</p>br> 
+<p class="code-field">ruby -version</p>
 If there's no info, then install it by this command (For Linux):
-<p class="code-field">sudo apt-get install ruby-full</p>br> 
+<p class="code-field">sudo apt-get install ruby-full</p>
 There are other ways to install ruby for different systems. Check <a href="https://www.ruby-lang.org/en/documentation/installation/">this site </a>for more info
 
 Second step is to install jekyll. It is a so-called ruby gem (like a module in Node JS). You can do it by this command:
-<p class="code-field">gem install jekyll bundler</p><br>
-<p class="code-field">jekyll new name-of-you-project</p><br>
-<p class="code-field">cd name-of-you-project</p><br>
+<p class="code-field">gem install jekyll bundler</p>
+<p class="code-field">jekyll new name-of-you-project</p>
+<p class="code-field">cd name-of-you-project</p>
 
 
 
