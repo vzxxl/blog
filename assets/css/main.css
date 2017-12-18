@@ -946,7 +946,7 @@ table tfoot td {
   width: 240px;
   height: 100%;
   padding: 20px 10px;
-  background-color: #ffffff;
+  background-color: #F5AB35;
 }
 
 .about {
@@ -982,7 +982,7 @@ table tfoot td {
 }
 
 .about .author-name {
-  font-family: 'PT Serif', serif;
+  font-family: 'Ubuntu', serif;
   margin: 0 0 10px;
   position: relative;
   padding-bottom: 15px;
@@ -993,7 +993,6 @@ table tfoot td {
 }
 
 .about .author-name::after {
-  content: "";
   position: absolute;
   left: 50%;
   -webkit-transform: translateX(-50%);

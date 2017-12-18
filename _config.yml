@@ -11,7 +11,7 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Vladimir Ushakov # add your name
 author-img: vladimir-ushakov.jpg # add your photo
-about-author: I am a web developer focusing on front-end development. # add description
+about-author: I am a web developer focusing on front-end. # add description
 twitter: # add your Twitter handle
 facebook: # add your Facebook handle
 github: vzxxl # add your Github handle
