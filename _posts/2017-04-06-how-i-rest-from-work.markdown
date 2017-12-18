@@ -48,7 +48,7 @@ Now you can send your code and files to GitHub:
 <p class="code-field">git remote -v</p>
 <p class="code-field">git push origin master</p>
 
-We are almost there. We have our code and file on GitHub in master branch. But actually we need it to be in gh-pages branch. So few other commands needed:
+We are almost there. We have our code and files on GitHub in master branch. But actually we need it to be in gh-pages branch. So few other commands needed:
 
 <p class="code-field">git branch gh-pages</p>
 <p class="code-field">git push origin gh-pages</p>
