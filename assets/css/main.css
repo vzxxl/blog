@@ -872,6 +872,7 @@ table tfoot td {
 }
 
 .hamburger {
+  text-decoration: none;
   background: none;
   position: absolute;
   top: 0;
@@ -884,6 +885,10 @@ table tfoot td {
   cursor: pointer;
   outline: none;
   z-index: 10000000000000;
+}
+
+.mm-panels, .mm-panels > .mm-panel {
+  position: unset;
 }
 
 .post, .article-page {
