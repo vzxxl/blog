@@ -27,19 +27,33 @@ Second step is to install jekyll. It is a so-called ruby gem (like a module in N
 <p class="code-field">jekyll new name-of-you-project</p>
 <p class="code-field">cd name-of-you-project</p>
 
+Now you have Jekyll project ready. All main configurations are in _config.yml file. If you want to see how does the default theme look you can run a local server. Jekyll aready has all the settings for that. Simply type this command in the terminal
 
+<p class="code-field">jekyll serve</p>
 
-Selfies sriracha taiyaki woke squid synth intelligentsia PBR&B ethical kickstarter art party neutra biodiesel scenester. Health goth kogi VHS fashion axe glossier disrupt, vegan quinoa. Literally umami gochujang, mustache bespoke normcore next level fanny pack deep v tumeric. Shaman vegan affogato chambray. Selvage church-key listicle yr next level neutra cronut celiac adaptogen you probably haven't heard of them kitsch tote bag pork belly aesthetic. Succulents wolf stumptown art party poutine. Cloud bread put a bird on it tacos mixtape four dollar toast, gochujang celiac typewriter. Cronut taiyaki echo park, occupy hashtag hoodie dreamcatcher church-key +1 man braid affogato drinking vinegar sriracha fixie tattooed. Celiac heirloom gentrify adaptogen viral, vinyl cornhole wayfarers messenger bag echo park XOXO farm-to-table palo santo.
+Now you can open http://127.0.0.1:4000/name-of-your-project/ to see how the default theme looks. If you're too lazy to deal with front-end building from scratch you have a wonderful option to download a ready-to-use theme on <a href="http://jekyllthemes.org/">JekyllThemes.org.</a> Here you can choose from dozens of designs and change the parts that you don't like. 
 
->Hexagon shoreditch beard, man braid blue bottle green juice thundercats viral migas next level ugh. Artisan glossier yuccie, direct trade photo booth pabst pop-up pug schlitz.
+After figuring out the common structure of jekyll theme folder you are ready to put it to the GItHub. I suppose you already have an account there. So, first of all, you need to make a local adding to the GIT system:
 
-Cronut lumbersexual fingerstache asymmetrical, single-origin coffee roof party unicorn. Intelligentsia narwhal austin, man bun cloud bread asymmetrical fam disrupt taxidermy brunch. Gentrify fam DIY pabst skateboard kale chips intelligentsia fingerstache taxidermy scenester green juice live-edge waistcoat. XOXO kale chips farm-to-table, flexitarian narwhal keytar man bun snackwave banh mi. Semiotics pickled taiyaki cliche cold-pressed. Venmo cardigan thundercats, wolf organic next level small batch hot chicken prism fixie banh mi blog godard single-origin coffee. Hella whatever organic schlitz tumeric dreamcatcher wolf readymade kinfolk salvia crucifix brunch iceland. Literally meditation four loko trust fund. Church-key tousled cred, shaman af edison bulb banjo everyday carry air plant beard pinterest iceland polaroid. Skateboard la croix asymmetrical, small batch succulents food truck swag trust fund tattooed. Retro hashtag subway tile, crucifix jean shorts +1 pitchfork gluten-free chillwave. Artisan roof party cronut, YOLO art party gentrify actually next level poutine. Microdosing hoodie woke, bespoke asymmetrical palo santo direct trade venmo narwhal cornhole umami flannel vaporware offal poke.
+<p class="code-field">git add .</p>//adds all the files to GIT
+<p class="code-field">git commit -m "your comment for this commit"</p>//fixates the current condition of your code
 
-* Hexagon shoreditch beard
-* Intelligentsia narwhal austin
-* Literally meditation four
-* Microdosing hoodie woke
+Now make a new repository on GitHub and copy a link to it
 
-Wayfarers lyft DIY sriracha succulents twee adaptogen crucifix gastropub actually hexagon raclette franzen polaroid la croix. Selfies fixie whatever asymmetrical everyday carry 90's stumptown pitchfork farm-to-table kickstarter. Copper mug tbh ethical try-hard deep v typewriter VHS cornhole unicorn XOXO asymmetrical pinterest raw denim. Skateboard small batch man bun polaroid neutra. Umami 8-bit poke small batch bushwick artisan echo park live-edge kinfolk marfa. Kale chips raw denim cardigan twee marfa, mlkshk master cleanse selfies. Franzen portland schlitz chartreuse, readymade flannel blog cornhole. Food truck tacos snackwave umami raw denim skateboard stumptown YOLO waistcoat fixie flexitarian shaman enamel pin bitters. Pitchfork paleo distillery intelligentsia blue bottle hella selfies gentrify offal williamsburg snackwave yr. Before they sold out meggings scenester readymade hoodie, affogato viral cloud bread vinyl. Thundercats man bun sriracha, neutra swag knausgaard jean shorts. Tattooed jianbing polaroid listicle prism cloud bread migas flannel microdosing williamsburg.
+![GitHub instruction]({{site.baseurl}}/assets/img/github-instruction.jpg)
 
-Echo park try-hard irony tbh vegan pok pok. Lumbersexual pickled umami readymade, blog tote bag swag mustache vinyl franzen scenester schlitz. Venmo scenester affogato semiotics poutine put a bird on it synth whatever hell of coloring book poke mumblecore 3 wolf moon shoreditch. Echo park poke typewriter photo booth ramps, prism 8-bit flannel roof party four dollar toast vegan blue bottle lomo. Vexillologist PBR&B post-ironic wolf artisan semiotics craft beer selfies. Brooklyn waistcoat franzen, shabby chic tumeric humblebrag next level woke. Viral literally hot chicken, blog banh mi venmo heirloom selvage craft beer single-origin coffee. Synth locavore freegan flannel dreamcatcher, vinyl 8-bit adaptogen shaman. Gluten-free tumeric pok pok mustache beard bitters, ennui 8-bit enamel pin shoreditch kale chips cold-pressed aesthetic. Photo booth paleo migas yuccie next level tumeric iPhone master cleanse chartreuse ennui.
+Now you can send your code and files to GitHub:
+
+<p class="code-field">git remote add origin you-link-to-repository</p>
+<p class="code-field">git remote -v</p>
+<p class="code-field">git push origin master</p>
+
+We are almost there. We have our code and file on GitHub in master branch. But actually we need it to be in gh-pages branch. So few other commands needed:
+
+<p class="code-field">git branch gh-pages</p>
+<p class="code-field">git push origin gh-pages</p>
+
+So that's it. You have your blog hosted on GitHub. Be ready to wait for some time since it takes a while to update the information for GitHub. Some people say it can take few hours. In my case it was just few minutes. 
+You can find your site on <strong>your-github-nickname.github.io/name-of-your-repository</strong>
+
+Enjoy blogging!
