@@ -11,21 +11,21 @@ If you work in IT you probably know about Git and GitHub where you can store you
 
 ![GitHub Pages]({{site.baseurl}}/assets/img/github-pages.jpg)
 
-Seems like now we have a solution. But there is one problem: you can't use a database on GitHub Pages. But here's why I love IT community and "problem-solving" type of thinking - sooner or later there will be a way around. This time GitHub programmers solved this problem themselvs creating Jekyll - a Ruby gem that can make a blog out of static html elements. And don't be scared by Ruby language, you don't need to know it to work with Jekyll. Its so simple that even a no-it guy could figure it out. You can find more information about <a href="https://jekyllrb.com/"></a> Jekyll on their official website.  
+Seems like now we have a solution. But there is one problem: you can't use a database on GitHub Pages. But here's why I love IT community and "problem-solving" type of thinking - sooner or later there will be a way around. This time GitHub programmers solved this problem themselvs creating Jekyll - a Ruby gem that can make a blog out of static html elements. And don't be scared by Ruby language, you don't need to know it to work with Jekyll. Its so simple that even a no-it guy could figure it out. You can find more information about <a href="https://jekyllrb.com/">Jekyll</a> on their official website.  
 
 ![Jekyll Website]({{site.baseurl}}/assets/img/jekyll-official.jpg)
 
 ## Lets make it by steps
 First of all you need to install Ruby environment. If you don't know if it is already in you system try to check the version by typing this in the command line of the terminal:
-<code>ruby -version</code> 
+<p class="code-field">ruby -version</p>br> 
 If there's no info, then install it by this command (For Linux):
-<code>sudo apt-get install ruby-full</code> 
+<p class="code-field">sudo apt-get install ruby-full</p>br> 
 There are other ways to install ruby for different systems. Check <a href="https://www.ruby-lang.org/en/documentation/installation/">this site </a>for more info
 
 Second step is to install jekyll. It is a so-called ruby gem (like a module in Node JS). You can do it by this command:
-<code>gem install jekyll bundler</code>
-<code>jekyll new name-of-you-project</code>
-<code>cd name-of-you-project</code>
+<p class="code-field">gem install jekyll bundler</p><br>
+<p class="code-field">jekyll new name-of-you-project</p><br>
+<p class="code-field">cd name-of-you-project</p><br>
 
 
 
