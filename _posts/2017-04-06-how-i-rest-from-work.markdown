@@ -44,7 +44,7 @@ Now make a new repository on GitHub and copy a link to it
 
 Now you can send your code and files to GitHub:
 
-<p class="code-field">git remote add origin you-link-to-repository</p>
+<p class="code-field">git remote add origin your-link-to-the-repository</p>
 <p class="code-field">git remote -v</p>
 <p class="code-field">git push origin master</p>
 
